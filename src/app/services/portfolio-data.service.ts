@@ -39,6 +39,24 @@ export class PortfolioDataService {
       category: 'backend'
     },
     {
+      id: 'postpilot-ai',
+      title: 'PostPilot AI',
+      description: 'Full stack social publishing platform that uses AI to turn one uploaded video into native copy for YouTube, Instagram, and TikTok.',
+      problem: 'Publishing the same video across multiple social networks requires repetitive content adaptation, account management, and reliable scheduling.',
+      solution: 'A modular monolith with a background worker that analyzes videos, generates platform-specific titles and captions, connects multiple accounts, and processes scheduled publications with retry support.',
+      technologies: ['TypeScript', 'Node.js', 'React', 'PostgreSQL', 'Redis', 'Docker', 'Playwright'],
+      highlights: [
+        'AI-assisted copy generation for multiple social platforms',
+        'Real API adapters for YouTube, Instagram, and TikTok',
+        'Background job queue with scheduling, failure handling, and retry',
+        'Demo mode for testing the complete workflow without external credentials',
+        'OAuth token encryption and documented OpenAPI contract'
+      ],
+      githubUrl: 'https://github.com/Mthws167/postpilotai',
+      status: 'Portfolio Project',
+      category: 'fullstack'
+    },
+    {
       id: 'library',
       title: 'Library Management System',
       description: 'Full stack library management system with a Spring Boot REST API and Angular 17 frontend.',
